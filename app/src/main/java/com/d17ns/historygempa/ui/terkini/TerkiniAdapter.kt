@@ -9,7 +9,6 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.d17ns.historygempa.R
 import com.d17ns.historygempa.databinding.ListGempaTerkiniBinding
-import com.d17ns.historygempa.network.DataGempaDirasakan
 import com.d17ns.historygempa.network.DataGempaTerkini
 
 // class TerkiniAdapter untuk menampilkan list data yang ada di file gempaterkini.json
