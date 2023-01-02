@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:padding="8dp"
+    android:background="@color/white">
+
+
+    <TextView
+        android:id="@+id/itemTanggal"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_margin="8dp"
+        android:text="@string/tanggal"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tanggal"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_margin="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/itemTanggal"
+        app:layout_constraintStart_toEndOf="@+id/itemTanggal"
+        app:layout_constraintTop_toTopOf="@+id/itemTanggal"
+        tools:text="tanggal" />
+
+    <TextView
+        android:id="@+id/itemJam"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_margin="8dp"
+        android:text="@string/jam"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemTanggal" />
+
+    <TextView
+        android:id="@+id/jam"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_margin="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/itemJam"
+        app:layout_constraintStart_toEndOf="@+id/itemJam"
+        app:layout_constraintTop_toTopOf="@+id/itemJam"
+        tools:text="jam" />
+
+    <TextView
+        android:id="@+id/itemMagnitude"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_margin="8dp"
+        android:text="@string/magnitude"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemJam" />
+
+    <TextView
+        android:id="@+id/magnitude"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_margin="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/itemMagnitude"
+        app:layout_constraintStart_toEndOf="@+id/itemMagnitude"
+        app:layout_constraintTop_toTopOf="@+id/itemMagnitude"
+        tools:text="magnitude" />
+
+    <TextView
+        android:id="@+id/itemKedalaman"
+        android:layout_width="100dp"
+        android:layout_height="20dp"
+        android:layout_margin="8dp"
+        android:text="@string/kedalaman"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemMagnitude" />
+
+    <TextView
+        android:id="@+id/kedalaman"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_margin="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/itemKedalaman"
+        app:layout_constraintStart_toEndOf="@+id/itemKedalaman"
+        app:layout_constraintTop_toTopOf="@+id/itemKedalaman"
+        tools:text="kedalaman" />
+
+    <TextView
+        android:id="@+id/itemWilayah"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_margin="8dp"
+        android:text="@string/wilayah"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/itemKedalaman" />
+
+    <TextView
+        android:id="@+id/wilayah"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_margin="8dp"
+        android:maxEms="20"
+        app:layout_constraintBottom_toBottomOf="@+id/itemWilayah"
+        app:layout_constraintStart_toEndOf="@+id/itemWilayah"
+        app:layout_constraintTop_toTopOf="@+id/itemWilayah"
+        tools:text="wilayah" />
+
+    <Button
+        android:id="@+id/coordinatesButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:backgroundTint="@color/green"
+        android:drawableLeft="@drawable/ic_location"
+        android:text="@string/coordinateButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wilayah" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

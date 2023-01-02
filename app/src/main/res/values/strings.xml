@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">History Gempa</string>
+    <string name="gempaDirasakan">Gempa Dirasakan</string>
+    <string name="gempaTerkini">Gempa 5.0+ SR</string>
+    <string name="coordinateButton">View Coordinate</string>
+    <string name="tanggal">Tanggal</string>
+    <string name="jam">Jam</string>
+    <string name="magnitude">Magnitude</string>
+    <string name="kedalaman">Kedalaman</string>
+    <string name="wilayah">Wilayah</string>
+    <string name="potensi">Potensi</string>
+</resources>

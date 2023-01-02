@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/gempaDirasakan"
+        android:title="@string/gempaDirasakan"
+        android:icon="@drawable/ic_dirasakan"/>
+    <item
+        android:id="@+id/gempaTerkini"
+        android:title="@string/gempaTerkini"
+        android:icon="@drawable/ic_terkini"/>
+
+</menu>
