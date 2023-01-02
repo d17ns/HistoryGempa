@@ -20,6 +20,7 @@ class DirasakanViewModel : ViewModel() {
 
     // function findGempaDirasakan()
     fun findGempaDirasakan() {
+
         // mendefinisikan variabel client untuk mengakses function getGempaDirasakan() dengan retrofitService
         val client = Api.retrofitService.getGempaDirasakan()
 
